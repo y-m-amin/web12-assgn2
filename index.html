@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -44,68 +52,52 @@
       </div>
       <div class="cards-container">
         <div class="cards">
-          <div>
-            <img src="./assets/sample-flower-image.png" alt="" />
-            <h3>Lily Blossom</h3>
-            <h3>20 USD</h3>
-            <button>ADD TO CART</button>
-          </div>
+          <img src="./assets/sample-flower-image.png" alt="" />
+          <h3>Lily Blossom</h3>
+          <h3>20 USD</h3>
+          <button>ADD TO CART</button>
         </div>
         <div class="cards">
-          <div>
-            <img src="./assets/sample-flower-image.png" alt="" />
-            <h3>Lily Blossom</h3>
-            <h3>20 USD</h3>
-            <button>ADD TO CART</button>
-          </div>
+          <img src="./assets/sample-flower-image.png" alt="" />
+          <h3>Lily Blossom</h3>
+          <h3>20 USD</h3>
+          <button>ADD TO CART</button>
         </div>
         <div class="cards">
-          <div>
-            <img src="./assets/sample-flower-image.png" alt="" />
-            <h3>Lily Blossom</h3>
-            <h3>20 USD</h3>
-            <button>ADD TO CART</button>
-          </div>
+          <img src="./assets/sample-flower-image.png" alt="" />
+          <h3>Lily Blossom</h3>
+          <h3>20 USD</h3>
+          <button>ADD TO CART</button>
         </div>
         <div class="cards">
-          <div>
-            <img src="./assets/sample-flower-image.png" alt="" />
-            <h3>Lily Blossom</h3>
-            <h3>20 USD</h3>
-            <button>ADD TO CART</button>
-          </div>
+          <img src="./assets/sample-flower-image.png" alt="" />
+          <h3>Lily Blossom</h3>
+          <h3>20 USD</h3>
+          <button>ADD TO CART</button>
         </div>
         <div class="cards">
-          <div>
-            <img src="./assets/sample-flower-image.png" alt="" />
-            <h3>Lily Blossom</h3>
-            <h3>20 USD</h3>
-            <button>ADD TO CART</button>
-          </div>
+          <img src="./assets/sample-flower-image.png" alt="" />
+          <h3>Lily Blossom</h3>
+          <h3>20 USD</h3>
+          <button>ADD TO CART</button>
         </div>
         <div class="cards">
-          <div>
-            <img src="./assets/sample-flower-image.png" alt="" />
-            <h3>Lily Blossom</h3>
-            <h3>20 USD</h3>
-            <button>ADD TO CART</button>
-          </div>
+          <img src="./assets/sample-flower-image.png" alt="" />
+          <h3>Lily Blossom</h3>
+          <h3>20 USD</h3>
+          <button>ADD TO CART</button>
         </div>
         <div class="cards">
-          <div>
-            <img src="./assets/sample-flower-image.png" alt="" />
-            <h3>Lily Blossom</h3>
-            <h3>20 USD</h3>
-            <button>ADD TO CART</button>
-          </div>
+          <img src="./assets/sample-flower-image.png" alt="" />
+          <h3>Lily Blossom</h3>
+          <h3>20 USD</h3>
+          <button>ADD TO CART</button>
         </div>
         <div class="cards">
-          <div>
-            <img src="./assets/sample-flower-image.png" alt="" />
-            <h3>Lily Blossom</h3>
-            <h3>20 USD</h3>
-            <button>ADD TO CART</button>
-          </div>
+          <img src="./assets/sample-flower-image.png" alt="" />
+          <h3>Lily Blossom</h3>
+          <h3>20 USD</h3>
+          <button>ADD TO CART</button>
         </div>
       </div>
     </section>
@@ -145,11 +137,27 @@
       </div>
       <div class="deals-images">
         <div class="left-column">
-          <img src="./assets/deal-bloom.png" alt="" />
-          <img src="./assets/deal-ana.png" alt="" />
+          <div class="deals-image-wrapper">
+            <img src="./assets/deal-bloom.png" alt="" />
+            <div class="deals-overlay">
+              <h3>Bloom Special</h3>
+              <a href="#">Shop Bloom</a>
+            </div>
+          </div>
+          <div class="deals-image-wrapper">
+            <img src="./assets/deal-ana.png" alt="" />
+            <div class="deals-overlay">
+              <h3>Ana Special</h3>
+              <a href="#">Shop Ana</a>
+            </div>
+          </div>
         </div>
-        <div class="right-column">
+        <div class="right-column deals-image-wrapper">
           <img src="./assets/deal-zabo.png" alt="" />
+          <div class="deals-overlay">
+            <h3>Zabo Special</h3>
+            <a href="#">Shop Zabo</a>
+          </div>
         </div>
       </div>
     </section>
@@ -163,11 +171,14 @@
       </section>
     </div>
     <footer>
-      <img src="./assets/logo.png" alt="" />
-      <p>
-        Indulge your senses with the beauty and fragrance of our fresh flower
-        shop.
-      </p>
+      <div class="footer-text">
+        <img src="./assets/logo.png" alt="" />
+        <p>
+          Indulge your senses with the beauty and fragrance of our fresh flower
+          shop.
+        </p>
+      </div>
+
       <ul>
         <li>Home</li>
         <li>About Us</li>
@@ -182,7 +193,7 @@
         <li>Terms of Service</li>
         <li>Help Center</li>
       </ul>
-      <ul>
+      <ul class="social-icons">
         <li><img src="./assets/icon-linkedin.png" alt="" /></li>
         <li><img src="./assets/icon-twitter.png" alt="" /></li>
         <li><img src="./assets/icon-facebook.png" alt="" /></li>
