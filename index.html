@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Inter:wght@400;700&display=swap"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -24,7 +26,12 @@
           <li><a href="#">Home</a></li>
           <li><a href="#">Shop</a></li>
           <li><a href="#">About us</a></li>
-          <li><a href="#">Cart</a></li>
+          <li>
+            <a href="#">
+              <i class="fas fa-shopping-cart"></i>
+              Cart($56)
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -53,57 +60,68 @@
       <div class="cards-container">
         <div class="cards">
           <img src="./assets/sample-flower-image.png" alt="" />
-          <h3>Lily Blossom</h3>
-          <h3>20 USD</h3>
+          <h3 class="item-name">Lily Blossom</h3>
+          <h3 class="price">20 USD</h3>
           <button>ADD TO CART</button>
         </div>
         <div class="cards">
           <img src="./assets/sample-flower-image.png" alt="" />
-          <h3>Lily Blossom</h3>
-          <h3>20 USD</h3>
+          <h3 class="item-name">Lily Blossom</h3>
+          <h3 class="price">20 USD</h3>
           <button>ADD TO CART</button>
         </div>
         <div class="cards">
           <img src="./assets/sample-flower-image.png" alt="" />
-          <h3>Lily Blossom</h3>
-          <h3>20 USD</h3>
+          <h3 class="item-name">Lily Blossom</h3>
+          <h3 class="price">20 USD</h3>
           <button>ADD TO CART</button>
         </div>
         <div class="cards">
           <img src="./assets/sample-flower-image.png" alt="" />
-          <h3>Lily Blossom</h3>
-          <h3>20 USD</h3>
+          <h3 class="item-name">Lily Blossom</h3>
+          <h3 class="price">20 USD</h3>
           <button>ADD TO CART</button>
         </div>
         <div class="cards">
           <img src="./assets/sample-flower-image.png" alt="" />
-          <h3>Lily Blossom</h3>
-          <h3>20 USD</h3>
+          <h3 class="item-name">Lily Blossom</h3>
+          <h3 class="price">20 USD</h3>
           <button>ADD TO CART</button>
         </div>
         <div class="cards">
           <img src="./assets/sample-flower-image.png" alt="" />
-          <h3>Lily Blossom</h3>
-          <h3>20 USD</h3>
+          <h3 class="item-name">Lily Blossom</h3>
+          <h3 class="price">20 USD</h3>
           <button>ADD TO CART</button>
         </div>
         <div class="cards">
           <img src="./assets/sample-flower-image.png" alt="" />
-          <h3>Lily Blossom</h3>
-          <h3>20 USD</h3>
+          <h3 class="item-name">Lily Blossom</h3>
+          <h3 class="price">20 USD</h3>
           <button>ADD TO CART</button>
         </div>
         <div class="cards">
           <img src="./assets/sample-flower-image.png" alt="" />
-          <h3>Lily Blossom</h3>
-          <h3>20 USD</h3>
+          <h3 class="item-name">Lily Blossom</h3>
+          <h3 class="price">20 USD</h3>
           <button>ADD TO CART</button>
         </div>
       </div>
     </section>
     <section class="plants-lover">
       <div class="plants-lover-image">
-        <img src="./assets/flower-store.png" alt="" />
+        <div
+          class="image-wrapper"
+          style="position: relative; display: inline-block"
+        >
+          <img src="./assets/flower-store.png" alt="" />
+
+          <img
+            class="overlay-img"
+            src="./assets/trusted-badge.png"
+            alt="Overlay Flower"
+          />
+        </div>
       </div>
       <div class="plants-lover-text">
         <h2>Flower & Plants Lover</h2>
