@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav .links {
+  display: flex;
+  align-items: right;
+  margin-left: 60%;
+}
+nav .links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+nav .links ul li {
+  display: inline;
+  margin-top: 20px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 80%;
+  margin-left: 230px;
+}
+
+.banner-text {
+  width: 50%;
+}
+.plants {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.plants-text {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+}
+
+.plants-lover {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin-left: 230px;
+}
+.plants-lover-image {
+  width: 50%;
+  margin-left: 100px;
+}
+.plants-lover-text {
+  width: 50%;
+  text-align: left;
+}
+.deals {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: 230px;
+  padding: 50px;
+}
+.deals-text {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.deals-images {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px; /* adjust as needed */
+}
+
+.deals-images .left-column,
+.deals-images .right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.deals-images img {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+.join-container {
+  display: flex;
+  background-image: url('./assets/news-letter-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  align-items: center;
+}
+.join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: 230px;
+  padding: 50px;
+}
+
+.join-input-group {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+}
+
+.join-input-group input[type='text'] {
+  flex: 1;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  outline: none;
+  border-right: none;
+}
+
+.join-input-group button {
+  border-radius: 0 4px 4px 0;
+  border: 1px solid #ccc;
+  border-left: none;
+  padding: 10px 20px;
+  background: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  margin: 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px;
+  padding: 50px;
+}
+footer ul {
+  list-style: none;
+}
+@media (max-width: 768px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .deals-images {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .deals-images .left-column,
+  .deals-images .right-column {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+}
